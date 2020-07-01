@@ -38,7 +38,7 @@ use CRM_Booking_ExtensionUtil as E;
  *
  */
 class CRM_Admin_Form_AdhocChargesItem extends CRM_Admin_Form {
-  protected $_id = NULL;
+  public $_id = NULL;
 
   function preProcess() {
     parent::preProcess();

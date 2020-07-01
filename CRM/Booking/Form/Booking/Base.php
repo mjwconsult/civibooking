@@ -7,7 +7,7 @@ use CRM_Booking_ExtensionUtil as E;
  */
 abstract class CRM_Booking_Form_Booking_Base extends CRM_Core_Form {
 
-  protected $_id;
+  public $_id;
 
   protected $_cid;
 
